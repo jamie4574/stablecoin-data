@@ -1,0 +1,12 @@
+{
+  "name": "stablecoin-lifecycle-map",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Stablecoin Lifecycle Map — Top 50, auto-refreshed daily via CoinGecko API",
+  "scripts": {
+    "refresh": "node scripts/refresh-data.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
